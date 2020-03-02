@@ -25,13 +25,17 @@ export class Tab1Page {
        this.post.author = data;
       }
     )
+  }
 
 
-
-    
+  
+  ionViewDidEnter() {
+    this.post.comment='';
+    this.post.title='';
   }
 
   sendPost(){
+    console.log(this.post);
     this.postService.addPost(this.post).subscribe(
       data => {
         console.log('data',data);

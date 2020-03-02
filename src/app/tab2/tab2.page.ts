@@ -110,7 +110,7 @@ export class Tab2Page {
           var imgName =  post.author.split(' ')[0].toLowerCase() ;
           imgName = imgName.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
           imgName = imgName+'.png'
-
+          console.log('post',post);
           var thePost = new Post(
             post.id,
             post.title,
