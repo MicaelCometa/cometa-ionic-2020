@@ -1,3 +1,50 @@
-ion-content ion-toolbar {
-  --background: translucent;
+
+
+.date{
+  margin: 0px;
+  right: 0px;
+  float: right;
+  bottom: 4px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.date2{
+  position: absolute;
+  right: 6px;
+  top: 20px;
+}
+.update-btn{
+  background: #798cd4;
+  border-radius: 4px;
+  color: #fff;
+}
+
+img{
+  left: -4px;
+    border: solid 1px #bbbbbb;
+    border-radius: 80px;
+}
+.title{
+  margin-top: 10px;
+}
+
+
+
+ion-card-header{
+  background:#313131;
+  padding-top: 1px;
+    padding-bottom: 0px;
+  img{
+    background-color:#fff;
+  }
+  ion-card-subtitle{
+    color: #fff;
+  }
+  ion-card-title{
+    color: #fff;
+  }
+  h1{
+    text-align: center;
+    
+  }
 }

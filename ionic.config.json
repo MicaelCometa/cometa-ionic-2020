@@ -1,5 +1,7 @@
 {
-  "name": "cometa-ionic-2020",
-  "integrations": {},
+  "name": "charla2",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
